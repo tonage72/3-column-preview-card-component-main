@@ -79,14 +79,17 @@ a {
 }
 
 .learnMoreSedans {
+	white-space: nowrap;
 	color: hsl(31, 77%, 52%);
 }
 
 .learnMoreSUVs {
+	white-space: nowrap;
 	color: hsl(184, 100%, 22%);
 }
 
 .learnMoreLuxury {
+	white-space: nowrap;
 	color: hsl(179, 100%, 13%);
 }
 
@@ -97,5 +100,6 @@ a {
 		margin-top: 25vh;
 		max-width: 50vw;
 		flex-flow: row nowrap;
+		align-items: stretch;
 	}
 }
